@@ -1,5 +1,12 @@
-impress.js
-============
+33C3
+=============
+Was ist dieser Chaos Communication Congress eigendlich? 
+
+
+
+
+Dieses Framework wurde geforked von impress.js
+=========
 
 [![CircleCI](https://circleci.com/gh/impress/impress.js.svg?style=svg)](https://circleci.com/gh/impress/impress.js)
 
@@ -28,35 +35,7 @@ EXAMPLES AND OTHER LEARNING RESOURCES
 
 [impress.js demo](http://impress.github.io/impress.js/) by [@bartaz](http://twitter.com/bartaz)
 
-### Examples and demos
-
-More examples and demos can be found on [Examples and demos wiki page](http://github.com/impress/impress.js/wiki/Examples-and-demos).
-
-Feel free to add your own example presentations (or websites) there.
-
-### Other tutorials and learning resources
-
-If you want to learn even more there is a [list of tutorials and other learning resources](https://github.com/impress/impress.js/wiki/impress.js-tutorials-and-other-learning-resources)
-on the wiki, too.
-
-There is also a book available about [Building impressive presentations with impress.js](http://www.packtpub.com/building-impressive-presentations-with-impressjs/book) by Rakhitha Nimesh Ratnayake.
-
-
-WANT TO CONTRIBUTE?
----------------------
-
-Please, read the [contributing guidelines](.github/CONTRIBUTING.md) on how to create [Issues](.github/CONTRIBUTING.md#issues) and [Pull Requests](.github/CONTRIBUTING.md#pull-requests).
-
-**Note:** The team has changed, so there will be many changes in the upcoming versions.
-If you need informations about versions, check the [changelog](CHANGELOG.md).
-
-
-ABOUT THE NAME
-----------------
-
-impress.js name in [courtesy of @skuzniak](http://twitter.com/skuzniak/status/143627215165333504).
-
-It's an (un)fortunate coincidence that a Open/LibreOffice presentation tool is called Impress ;)
+*[...]*
 
 Reference API
 --------------

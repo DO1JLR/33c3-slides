@@ -19,7 +19,6 @@
     Shall we begin?
 */
 
-
 /*
     We start with a good ol' reset.
     That's the one by Eric Meyer http://meyerweb.com/eric/tools/css/reset/
@@ -631,9 +630,9 @@ a:focus {
 .impress-enabled .hint { display: block }
 
 /*
-    ... and we will show it when the first step (with id 'bored') is active.
+    ... and we will show it when the first step (with id 'hello') is active.
 */
-.impress-on-bored .hint {
+.impress-on-hello .hint {
     /*
         We remove the transparency and position the hint in its default fixed
         position.
@@ -701,3 +700,23 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+
+#hello {
+	background-color: black;
+}
+#hello img {
+	margin-left: -1em;
+	margin-top: 0.2em;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.bg {
+    display: block;
+    margin: 0 auto;
+	width: 100%;
+	opacity: 0.23;
+}

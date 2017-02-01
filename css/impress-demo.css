@@ -723,5 +723,13 @@ a:focus {
 }
 .white{
 	background-color: rgba(255,255,255,0.4);
+	display: block;
+	font-size: 36pt;
+    width: 900px;
+    height: 700px;
+    padding: 15px 25px;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 16px 8px rgba(255, 255, 255, 0.4);
 	
 }

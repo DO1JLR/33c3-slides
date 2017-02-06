@@ -733,18 +733,46 @@ a:focus {
     box-shadow: 0 2px 16px 8px rgba(255, 255, 255, 0.4);
 	
 }
-
+.hall{
+	float: left;
+	
+}
 #hall h1{
 	font-size: 42pt;
 	font-style: bold;
 	
 }
 #hall img{
-	width: 23%;
+	width: 100%;
+	padding-bottom: 15px;
 	
 }
 #hall q{
 	font-size: 14pt;
 	padding-top: -100px;
 	
+}
+#hall1{
+	margin-left: -3em;
+	width: 28%;
+	line-height: 35px;
+}
+#hall2{
+	margin-left: 0.5em;
+	width: 28%;
+	line-height: 35px;
+}#hallg{
+	margin-left: 0.5em;
+	width: 28%;
+	line-height: 35px;
+}
+#hall6{
+	margin-left: 0.5em;
+	margin-right: -50px;
+	width: 28%;
+	line-height: 35px;
+}
+#clear_foo{
+	clear: both;
+	min-width: 500px;
 }

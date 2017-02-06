@@ -734,4 +734,17 @@ a:focus {
 	
 }
 
-
+#hall h1{
+	font-size: 42pt;
+	font-style: bold;
+	
+}
+#hall img{
+	width: 23%;
+	
+}
+#hall q{
+	font-size: 14pt;
+	padding-top: -100px;
+	
+}

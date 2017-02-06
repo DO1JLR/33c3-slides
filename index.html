@@ -177,74 +177,38 @@
         <img style="width: 120%; margin-top: 40px;" src="33c3.see-base.zdf.png"/>
 		<br/><q style="font-size: 14pt; margin-left: 720px;">Bild: <a href="https://www.zdf.de/nachrichten/heute/zdf-heute-sendung-vom-30-12-2016-um-19-uhr-100.html">zdf.de</a></q>
     </div>
+
     <!--
-        
-        This step here doesn't introduce anything new when it comes to data attributes, but you
-        should notice in the demo that some words of this text are being animated.
-        It's a very basic CSS transition that is applied to the elements when this step element is
-        reached.
-        
-        At the very beginning of the presentation all step elements are given the class of `future`.
-        It means that they haven't been visited yet.
-        
-        When the presentation moves to given step `future` is changed to `present` class name.
-        That's how animation on this step works - text moves when the step has `present` class.
-        
-        Finally when the step is left the `present` class is removed from the element and `past`
-        class is added.
-        
-        So basically every step element has one of three classes: `future`, `present` and `past`.
-        Only one current step has the `present` class.
-        
+		There is the heaven...
+		Chaos **Communication** Congress
     -->
     <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
         <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
     </div>
-
+	<!-- NOC 100G Telekom, 4x10G other... -->
     <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
         <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
     </div>
-
+	<!-- POC, GSM, Opensource GSM Stack nachgebaut... -->
     <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
         <p>want to know more?</p>
         <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
     </div>
-
+	<!-- c3sign => Routing -->
     <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
         <p>one more thing...</p>
     </div>
 
-    <!--
-        
-        And the last one shows full power and flexibility of impress.js.
-        
-        You can not only position element in 3D, but also rotate it around any axis.
-        So this one here will get rotated by -40 degrees (40 degrees anticlockwise) around X axis and
-        10 degrees (clockwise) around Y axis.
-        
-        You can of course rotate it around Z axis with `data-rotate-z` - it has exactly the same effect
-        as `data-rotate` (these two are basically aliases).
-        
-    -->
+	<!-- Kidspace, CMS... -->
+	
+	<!-- [IMG 3D Printer] -> Ask someone and he explains it! -->
+
+	<!-- #Impressions -> ALL CREATURES WELCOME -->
     <div id="impression" class="step" data-x="6200" data-y="4300" data-z="100" data-rotate-x="-70" data-rotate-y="20" data-scale="2">
         <iframe src="https://player.vimeo.com/video/198083207?autoplay=1&loop=1&color=c9ff23" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
 
-    <!--
-        
-        So to summarize of all the possible attributes used to position presentation steps, we have:
-        
-        * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
-            the canvas in pixels; their default value is 0;
-        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
-            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
-            are exactly the same;
-        * `data-scale` - defines the scale of step element; default value is 1
-        
-        These values are used by impress.js in CSS transformation functions, so for more information consult
-        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
-        
-    -->
+	<!-- Talks: Spiegel Mining, Universe is like srsly huge... -->
     <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
     </div>
 

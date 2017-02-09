@@ -196,10 +196,10 @@
 
 -->
     <div class="step" data-x="10000" data-y="-2000" data-scale="6">
-        <p><img width="40px" src="twitter.noc.jpg"/> Das <a href="https://c3noc.de/">C3NOC</a> hat uns mit Internet versorgt:</p>
+        <p><img width="40px" src="twitter.noc.jpg"/> Das <a href="https://twitter.com/c3noc">C3NOC</a> hat uns mit Internet versorgt:</p>
 		<img style="width: 110%;" src="c3noc.png"/>
     </div>
-	<div class="step" data-x="10000" data-y="-2000" data-z="-4000" data-scale="4">
+	<div class="step" data-x="11000" data-y="-2500" data-z="-6000" data-scale="4">
 		<h1 style="font-size: 42pt;">Core Router</h1>
 		<img width="100%" src="c3corerouter.png"/>
 		<p style="padding-left: 500px; font-size: 14pt;">Bild: <a href="http://www.deutschlandfunk.de/chaos-communication-congress-2016.2888.de.html">deutschlandfunk.de</a></p>
@@ -223,10 +223,15 @@
 	<!-- c3sign => Routing -->
     <div class="step" data-x="15000" data-y="5000" data-scale="2">
         <p>Congress von <a>Tag -9</a> bis <a>Tag 5</a></p><br/>
-		<video width="90%" controls autoplay loop>
+		<video id="vid" width="90%" controls autoplay loop>
 			<source src="mov.mp4" type="video/mp4">
 			Error: Your browser does not support the video tag.
 		</video>
+		<script>
+		 setTimeout(function(){
+		      document.getElementById('vid').play();
+		       },1000)
+		     </script>
 		<p style="padding-left: 500px; font-size: 14pt;">Video: <a href="http://sandratrostel.de/projects/allcreatureswelcome/">sandratrostel.de</a></p>
     </div>
 	
